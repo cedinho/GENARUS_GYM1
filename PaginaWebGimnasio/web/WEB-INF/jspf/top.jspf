@@ -2,14 +2,15 @@
 <html class="global">
     <head>
         <meta charset="utf-8">
-        <title>Titulo de Proyecto</title>
+        <title>GENARUS GYN</title>
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet" href="bootstrap/css/bootstrap.css">
         <link rel="stylesheet" href="bootstrap/3.2.0/css/bootstrap.min.css">
         <link rel="stylesheet"  href="bootstrap/dist/css/bootstrap.min.css">
         <link rel="stylesheet"  href="bootstrap/dist/css/bootstrap-theme.min.css">
-        
-        <link rel="stylesheet" type="text/css" href="css/estilos.css">
+        <link rel="stylesheet"  href="bootstrap/dist/css/bootstrap.min.css" >
+        <link rel="stylesheet"  href="css/estilos.css">
+        <link rel="stylesheet"  href="css/estilos1.css">
     </head>
     <body>
         <header>
@@ -32,7 +33,7 @@
                         </div>
                         <div class="navbar-collapse collapse">
                             <ul class="nav navbar-nav">
-                                <li class="active"><a href="prueba2.jsp">
+                                <li class="active"><a href="logeo.jsp">
                                         <span class="glyphicon glyphicon-home" aria-hidden="true"></span>
                                         Inicio</a></li>
                                 <li><a href="#about">Clientes</a></li>
