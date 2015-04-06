@@ -9,19 +9,19 @@
                     <th>DNI</th>
                 </tr>
                 <tr>
-                    <td>Luis</td>
-                    <td>Santa Maria</td>
-                    <td>45448683</td>
+                    <td>Natalia </td>
+                    <td>Diaz Salazar</td>
+                    
                 </tr>
                 <tr>
-                    <td>pedro</td>
-                    <td>torres</td>
-                    <td>51247896</td>
+                    <td>Deyvi </td>
+                    <td>Viena Panduro</td>
+                   
                 </tr>
                 <tr>
-                    <td>diego</td>
-                    <td>flores</td>
-                    <td>62144778</td>
+                    <td>Ciro</td>
+                    <td>Hidalgo Mozombite</td>
+                    
                 </tr>
             </table>
 		
