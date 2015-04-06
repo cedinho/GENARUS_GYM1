@@ -36,8 +36,8 @@
                     </a>
                 </div>
                 <h4 class="titulo1">Bienvenido al Gimnasio</h4>
-                <p>Desde esta página web podras realizar todas las gestiones que antes no podías.
-                    Si no estas registrado todavía, registrate y disfruta de lo servicios que te ofrece la página</p>
+                <p>Desde esta p&aacute;gina web podras realizar todas las gestiones que antes no pod&iacute;as.
+                    Si no estas registrado todav&iacute;a, registrate y disfruta de lo servicios que te ofrece la p&aacute;gina</p>
 
                 <div>
 
@@ -51,13 +51,13 @@
                                        placeholder="Introduce tu email">
                             </div>
                             <div class="form-group">
-                                <label class="sr-only" for="ejemplo_password_2">Contraseña</label>
+                                <label class="sr-only" for="ejemplo_password_2">Contrase&ntilde;a</label>
                                 <input type="password" class="form-control" id="ejemplo_password_2" 
-                                       placeholder="Contraseña">
+                                       placeholder="Contrase&ntilde;a">
                             </div>
                             <div class="checkbox">
                                 <label>
-                                    <input type="checkbox"> No cerrar sesión
+                                    <input type="checkbox"> No cerrar sesi&oacute;n
                                 </label>
                             </div>
                             <button type="submit" class="btn btn-default">Entrar</button>
@@ -95,14 +95,14 @@
                                                        placeholder="DNI">
                                             </div>
                                             <div class="form-group">
-                                                <label for="ejemplo_password_1">Contraseña</label>
+                                                <label for="ejemplo_password_1">Contrase&ntilde;a</label>
                                                 <input type="password" class="form-control" id="ejemplo_password_1" 
                                                        placeholder="Contraseña">
                                             </div>
                                             <div class="form-group">
                                                 <label for="ejemplo_password_1">Escribe de nuevo la contrase&ntilde;a</label>
                                                 <input type="password" class="form-control" id="ejemplo_password_1" 
-                                                       placeholder="Contraseña">
+                                                       placeholder="Contrase&ntilde;a">
                                             </div>
                                             <button type="submit" class="btn btn-default">Enviar</button>
 
