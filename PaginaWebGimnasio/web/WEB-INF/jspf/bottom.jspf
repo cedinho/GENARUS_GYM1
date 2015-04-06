@@ -1,0 +1,11 @@
+<footer><b><em>GENARUS GYM</em></b> &copy; 2015 - Todos Los Derechos Reservados</footer>
+
+<!-- Latest compiled and minified JavaScript -->
+<script src="jquery/jquery-1.11.2.min.js"></script>
+<script src="bootstrap/js/bootstrap.js"></script>
+<script src="jquery/1.11.1/jquery.min.js"></script>
+<script src="bootstrap/3.2.0/js/bootstrap.min.js"></script>
+<script src="bootstrap/dist/js/bootstrap.min.js"></script>
+<script src="bootstrap/assets/js/docs.min.js"></script>
+</body>
+</html>
