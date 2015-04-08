@@ -1,11 +1,11 @@
 <%@include file="WEB-INF/jspf/top.jspf" %>
- <div>
+ 
         <article>
-           
+          
             <div class="container">
 
                 <div class="row">
-
+                         <SECTION>
                     <div class="col-xs-8">
 
                         <div id="myCarousel" class="carousel slide" data-ride="carousel">
@@ -39,16 +39,28 @@
                                 <span class="sr-only">Next</span>
                             </a>
                         </div>
+                      
+                        <section>
+                            <div class="row">
+                                <div class="col-xs-8">
+                        
                         <h4 class="titulo1">Bienvenido al Gimnasio</h4>
                         <p>Desde esta p&aacute;gina web podras realizar todas las gestiones que antes no pod&iacute;as.
                             Si no estas registrado todav&iacute;a, registrate y disfruta de lo servicios que te ofrece la p&aacute;gina</p>
-
+                            
+                              </div>
+                              </div>
+                         </section> 
+                          <section>
+                            <div class="row">
+                                <div class="col-xs-8"> 
+                        
                         <form class="form-signin">
                             <h2 class="form-signin-heading">Ingresa Aqui</h2>
                             <label for="inputUsuario" class="sr-only">Usuario</label>
                             <input type="Ususario" id="inputUsuario" class="form-control" placeholder="Usuario" required autofocus>
                             <label for="inputContrase&ntilde;a" class="sr-only">Contrase&ntilde;a</label>
-                            <input type="Contrase&ntilde;a" id="inputContrase&ntilde;a" class="form-control" placeholder="Contrase&ntilde;a" required>
+                            <input type="Contrase&ntilde;a" id="inputPassword" class="form-control" placeholder="Contrase&ntilde;a" required>
                             <div class="checkbox">
                                 <label>
                                     <input type="checkbox" value="remember-me"> No Cerrar Seci&oacute;n
@@ -56,7 +68,10 @@
                             </div>
                             <button class="btn btn-lg btn-primary btn-block" type="submit">Ingresar</button>
                         </form>
-
+                         </div>
+                              </div>
+                         </section> 
+                        
                     </div>
                     <div class="col-xs-3 ">
                         <div>
@@ -80,12 +95,12 @@
                                 <div class="form-group">
                                     <label for="ejemplo_password_1">Contrase&ntilde;a</label>
                                     <input type="password" class="form-control" id="ejemplo_password_1" 
-                                           placeholder="Contraseña">
+                                           placeholder="Contrase&ntilde;a">
                                 </div>
                                 <div class="form-group">
                                     <label for="ejemplo_password_1">Escribe de nuevo la contrase&ntilde;a</label>
                                     <input type="password" class="form-control" id="ejemplo_password_1" 
-                                           placeholder="Contraseña">
+                                           placeholder="Contrase&ntilde;a">
                                 </div>
                                 <button type="submit" class="btn btn-default">Enviar</button>
 
@@ -94,10 +109,10 @@
 
 
                     </div>
-
+                     </SECTION>
                 </div>
             </div>
-
+             
     </article>
-</div>
+
 <%@include file="WEB-INF/jspf/bottom.jspf" %>

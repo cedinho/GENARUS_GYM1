@@ -20,25 +20,7 @@ footer
       width: 100%;
       margin: auto;
       
-      }
-
-.user{
-
-	
-	width: 200px;
-	text-align: justify;
-	font-size: 12px;
-	position: relative;
-}
-.menu{
-	padding: 20px;
-	margin-top: -25px;
-	margin-left: 66px;
-}
-body {
-  padding-top: 40px;
-  padding-bottom: 40px;
-  background-color: #eee;
+      
 }
 
 .form-signin {
