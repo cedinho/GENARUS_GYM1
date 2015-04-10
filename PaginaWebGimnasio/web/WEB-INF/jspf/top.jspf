@@ -37,6 +37,7 @@
                                                     <span class="glyphicon glyphicon-home" aria-hidden="true"></span>
                                                     Inicio</a></li>
                                               <li ><a href="#">
+                                                    <span class="glyphicon glyphicon-user" aria-hidden="true"></span>
                                                     Datos Personales</a></li>
                                               <li class="dropdown">
                                                 <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button"  aria-expandd="false">
@@ -82,7 +83,8 @@
                                             </li>
                                             <li class="dropdown">
                                                 <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button"  aria-expandd="false">
-                                                    Horarios
+                                                    <span class="glyphicon glyphicon-time" aria-hidden="true"></span>
+                                                    Horarios 
                                                     <span class="caret"></span>
                                                 </a>
                                                     <ul class="dropdown-menu" role="menu">
