@@ -1,6 +1,7 @@
     <%@include file="WEB-INF/jspf/top.jspf" %>
         <div class="container">
-
+          <div class="row">
+            <div class="col-xs-12">
       <form class="form-signin">
         <h2 class="form-signin-heading">Bienvenidos al Sistema</h2>
         <label for="inputEmail" class="sr-only">Usuario</label>
@@ -12,8 +13,10 @@
             <input type="checkbox" value="remember-me"> Remember me
           </label>
         </div>
-        <button class="btn btn-lg btn-primary btn-block" type="submit"><a href="prueba1.jsp">Ingresar</button>
+        <button class="btn btn-lg btn-primary btn-block" type="submit">Ingresar</button>
       </form>
+      </div>
+      </div>
 
     </div> <!-- /container -->
     <%@include file="WEB-INF/jspf/bottom.jspf" %>

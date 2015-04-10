@@ -1,7 +1,8 @@
 <!DOCTYPE html>
-<html>
+<html >
     <head>
         <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <title></title>
         <link rel="stylesheet"  href="css/estilos.css">
@@ -9,7 +10,7 @@
         <!-- Latest compiled and minified CSS -->
         <link rel="stylesheet" href="bootstrap/css/bootstrap.css">
     </head>
-    <body>
+    <body background="recursos/img/fondo1.png">
         <header>
 
             <div class="container">
@@ -20,8 +21,8 @@
                         </div>
                         <div>
 
-                            <nav class="navbar navbar-inverse">
-                                <div class="container" style="width: auto;">
+                           <nav id="navbar" class="navbar navbar-default navbar-static" role="navigation">
+                                <div class="container">
                                     <div class="navbar-header">
                                         <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target=".navbar-collapse">
                                             <span class="sr-only">Toggle navigation</span>
@@ -29,34 +30,94 @@
                                             <span class="icon-bar"></span>
                                             <span class="icon-bar"></span>
                                         </button>
-
-                                    </div>
-                                    <div class="navbar-collapse collapse">
-                                        <ul class="nav navbar-nav">
-                                            <li class="active"><a href="logeo.jsp">
+                                        <div class="collapse navbar-collapse ">
+                                            
+                                            <ul class="nav navbar-nav">
+                                              <li class="active"><a href="prueba1.jsp">
                                                     <span class="glyphicon glyphicon-home" aria-hidden="true"></span>
                                                     Inicio</a></li>
-                                            <li><a href="#about">Clientes</a></li>
-                                            <li><a href="#about">Proveedores</a></li>
-
-                                            <li class="dropdown">
-                                                <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Reporte <span class="caret"></span></a>
-                                                <ul class="dropdown-menu" role="menu">
-                                                    <li><a href="#">Reporte diario</a></li>
-                                                    <li><a href="#">Reporte mensual</a></li>
-                                                    <li class="divider"></li>
-                                                    <li class="dropdown-header">Asistencia</li>
-                                                    <li><a href="#">Asisten</a></li>
-                                                    <li><a href="reporte.jsp">No Asisten</a></li>
-                                                </ul>
+                                              <li ><a href="#">
+                                                    Datos Personales</a></li>
+                                              <li class="dropdown">
+                                                <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button"  aria-expandd="false">
+                                                    Clientes
+                                                    <span class="caret"></span>
+                                                </a>
+                                                    <ul class="dropdown-menu" role="menu">
+                                                        <li><a href="#">Registro Cliente</a></li>
+                                                        <li><a href="#">Reporte Cliente</a></li>
+                                                        
+                                                        <li class="divider"></li>
+                                                        <li><a href="#">Actualizar Cliente</a></li>
+                                                        <li><a href="#">Eliminar Cliente</a></li>
+                                                    </ul>
                                             </li>
-                                            <li><a href="#contact">
+                                             <li class="dropdown">
+                                                <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button"  aria-expandd="false">
+                                                    Trainers
+                                                    <span class="caret"></span>
+                                                </a>
+                                                    <ul class="dropdown-menu" role="menu">
+                                                        <li><a href="#">Registro Trainers</a></li>
+                                                        <li><a href="#">Reporte Trainers</a></li>
+                                                        
+                                                        <li class="divider"></li>
+                                                        <li><a href="#">Actualizar Trainers</a></li>
+                                                        <li><a href="#">Eliminar Trainers</a></li>
+                                                    </ul>
+                                            </li>
+                                            <li class="dropdown">
+                                                <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button"  aria-expandd="false">
+                                                    Actividades
+                                                    <span class="caret"></span>
+                                                </a>
+                                                    <ul class="dropdown-menu" role="menu">
+                                                        <li><a href="#">Registro Actividades</a></li>
+                                                        <li><a href="#">Reporte Actividades</a></li>
+                                                        
+                                                        <li class="divider"></li>
+                                                        <li><a href="#">Actualizar Actividads</a></li>
+                                                        <li><a href="#">Eliminar Actividades</a></li>
+                                                    </ul>
+                                            </li>
+                                            <li class="dropdown">
+                                                <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button"  aria-expandd="false">
+                                                    Horarios
+                                                    <span class="caret"></span>
+                                                </a>
+                                                    <ul class="dropdown-menu" role="menu">
+                                                        <li><a href="#">Registro Horarios</a></li>
+                                                        <li><a href="#">Reporte Horarios</a></li>
+                                                        
+                                                        <li class="divider"></li>
+                                                        <li><a href="#">Eliminar horarios</a></li>
+                                                    </ul>
+                                            </li>
+                                             <li class="dropdown">
+                                                <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button"  aria-expandd="false">
+                                                    Reservas
+                                                    <span class="caret"></span>
+                                                </a>
+                                                    <ul class="dropdown-menu" role="menu">
+                                                        <li><a href="#">Registro Reservas</a></li>
+                                                        <li><a href="#">Reporte Resevas</a></li>
+                                                    </ul>
+                                            </li>
+                                             <li><a href="regCliente">
                                                     <span class="glyphicon glyphicon-off" aria-hidden="true"></span>
                                                     Cerrar sesion</a></li>
-                                        </ul>
-                                    </div><!--/.nav-collapse -->
-                                </div>
-                            </nav>
+
+
+
+
+
+                                        </div>   
+                               
+
+
+
+
+                           </nav>
                         </div>
                     </div>
                 </div>
