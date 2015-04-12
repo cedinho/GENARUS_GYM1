@@ -6,6 +6,7 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <title></title>
         <link rel="stylesheet"  href="css/estilos.css">
+        
 
         <!-- Latest compiled and minified CSS -->
         <link rel="stylesheet" href="bootstrap/css/bootstrap.css">
@@ -20,8 +21,8 @@
                             <img src="recursos/img/logo.jpg">
                         </div>
                         <div>
-
-                           <nav id="navbar" class="navbar navbar-default navbar-static" role="navigation">
+  
+                           <nav id="navbar" class="navbar navbar-inverse navbar-static" role="navigation">
                                 <div class="container">
                                     <div class="navbar-header">
                                         <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target=".navbar-collapse">
@@ -45,7 +46,7 @@
                                                     <span class="caret"></span>
                                                 </a>
                                                     <ul class="dropdown-menu" role="menu">
-                                                        <li><a href="#">Registro Cliente</a></li>
+                                                        <li><a href="regCliente.jsp">Registro Cliente</a></li>
                                                         <li><a href="#">Reporte Cliente</a></li>
                                                         
                                                         <li class="divider"></li>

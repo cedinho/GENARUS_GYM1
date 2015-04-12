@@ -1,11 +1,11 @@
     <%@include file="WEB-INF/jspf/top.jspf" %>
-        <div class="container">
+        <div class="container" >
           <div class="row">
             <div class="col-xs-12">
-      <form class="form-signin">
+      <form class="col-sm-offset-4 form-signin well" id="sha">
         <h2 class="form-signin-heading">Bienvenidos al Sistema</h2>
-        <label for="inputEmail" class="sr-only">Usuario</label>
-        <input type="email" id="inputEmail" class="form-control" placeholder="Usuario" required autofocus>
+        <label for="inputUsuario" class="sr-only">Usuario</label>
+        <input type="Usuario" id="inputUsuario" class="form-control" placeholder="Usuario" required autofocus>
         <label for="inputPassword" class="sr-only">Password</label>
         <input type="password" id="inputPassword" class="form-control" placeholder="Password" required>
         <div class="checkbox">

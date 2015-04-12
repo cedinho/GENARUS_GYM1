@@ -1,10 +1,10 @@
 <%@include file="WEB-INF/jspf/top.jspf" %>
  
         <article>
-            <div class="container">
+            <div class="container" background="recursos/img/fondo.png">
                 <div class="row">
-                    <div class="  col-xs-7 " >
-                        <section>
+                    <div class="col-xs-7 " >
+                        <section class="well">
                              <div id="myCarousel" class="carousel slide" data-ride="carousel">
                             <!-- Indicators -->
                             <ol class="carousel-indicators">
@@ -16,13 +16,13 @@
                             <!-- Wrapper for slides -->
                             <div class="carousel-inner" role="listbox">
                                 <div class="item active">
-                                    <img src="recursos/img/gym2.jpg" alt="UPEU">
+                                    <img src="recursos/img/gym2.jpg" alt="GENARUS GYM">
                                 </div>
                                 <div class="item">
-                                    <img src="recursos/img/gym1.jpg" alt="UPEU">
+                                    <img src="recursos/img/gym1.jpg" alt="GENARUS GYM">
                                 </div>
                                 <div class="item">
-                                    <img src="recursos/img/gym4.jpg" alt="UPEU">
+                                    <img src="recursos/img/gym4.jpg" alt="GENARUS GYM">
                                 </div>
                             </div>
 
@@ -37,48 +37,32 @@
                             </a>
                         </div>
                         </section>
-                        <section>
+                        <section class="well">
                              <h4 class="titulo1">Bienvenido al Gimnasio</h4>
                         <p>Desde esta p&aacute;gina web podras realizar todas las gestiones que antes no pod&iacute;as.
                             Si no estas registrado todav&iacute;a, registrate y disfruta de lo servicios que te ofrece la p&aacute;gina</p>
                         </section>
                         <br />
                         <section>
-                         <form class="form-horizontal">
-                                  <div class="form-group">
-                                    <label for="inputUsuario" class="col-sm-4 control-label">Usuario</label>
-                                    <div class="col-sm-4">
-                                      <input type="Usuario" class="form-control" id="inputUsuario" placeholder="Usuario">
-                                    </div>
-                                  </div>
-                                  <div class="form-group">
-                                    <label for="inputPassword3" class="col-sm-4 control-label">Password</label>
-                                    <div class="col-sm-4">
-                                      <input type="password" class="form-control" id="inputPassword3" placeholder="Password">
-                                    </div>
-                                  </div>
-                                  <div class="form-group">
-                                    <div class="col-sm-offset-4 col-sm-10">
-                                      <div class="checkbox">
-                                        <label>
-                                          <input type="checkbox"> Recuerdame
-                                        </label>
-                                      </div>
-                                    </div>
-                                  </div>
-                                  <div class="form-group">
-                                    <div class="col-sm-offset-4 col-sm-4">
-                                      <button type="submit" class="btn btn-default">Aceptar</button>
-                                    </div>
-                                  </div>
-                                </form>
+                           <div class="container well " id="sha">
+                             <div class="col-xs-12">
+                               <h2 class=" form-signin-heading"><center><strong>Ingresa Aqui</strong></center></h2>
+                              </div>
+                               <form class="login" action="">
+                                 <div class="form-group"><input type="Usuario" class="form-control" placeholder="Usuario" name="Usuario" required autofocus></div>
+                                 <div class="form-group"><input type="password" class="form-control" placeholder="Contrase&ntilde;a" name="pass" required></div>
+                                 <button class="btn btn-lg btn-primary btn-block" type"submit"><strong>Iniciar seci&oacute;n</strong></button>
+
+                               </form>
+                            
+                           </div>
                         </section>
                     </div>
                     
                     <div class="container col-xs-offset-1 col-xs-4 well" id="sha">
                         <form role="form">
                                 <div class="col-sm-10 form-group">
-                                    <h2 class=" col-sm-offset-4 form-signin-heading">Registrate</h2>
+                                    <h2 class="form-signin-heading"><center><strong>Registrate</strong></center></h2>
                                      <br />
                                     <label for="ejemplo_email_1">Nombre</label>
 
@@ -89,7 +73,7 @@
                                     <label for="ejemplo_password_1">Apellido</label>
                                     <input type="Apellido" class="form-control" id="ejemplo_apellido_1" 
                                            placeholder="Apellido">
-                                </div>
+                               </div>
                                 <div class="col-sm-10 form-group">
                                     <label for="ejemplo_password_1">DNI</label>
                                     <input type="DNI" class="form-control" id="ejemplo_DNI_1" 
@@ -105,9 +89,9 @@
                                     <input type="password" class="form-control" id="ejemplo_password_1" 
                                            placeholder="Contrase&ntilde;a">
                                 </div>
-                                <div class="col-sm-offset-2 col-sm-10 form-group">
+                                <div class="col-sm-offset-3 col-sm-9 form-group">
                   
-                                <button type="submit" class="btn btn-default">Enviar</button>
+                                <button type="submit" class="btn btn-primary "><strong>Enviar</strong></button>
                                 </div>
 
                             </form>

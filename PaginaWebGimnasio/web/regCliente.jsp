@@ -34,6 +34,13 @@
 						</div>
 				</div>
 				<div class="form-group">
+						<label class="col-sm-2 control-label" for="formGroup">DNI</label>
+						<div class="col-sm-4">
+							<input type="text" class="form-control" id="formGroup">
+
+						</div>
+				</div>
+				<div class="form-group">
 						<label class="col-sm-2 control-label" for="formGroup">Sexo</label>
 						<div class="col-sm-4">
 							
@@ -52,7 +59,7 @@
 								<label for="formGroup" class="col-sm-2 control-label"></label>
 								<div class="col-sm-4">
 									<button type="submit" class="btn btn-succes btn-lg"><span class="glypicon glypicon-floppy-saved"></span>Guardar</button>
-									<button type="button" class="btn btn-danger btn-lg"><span class="glypicon glypicon-remove-circle"></span>Canclar</button>	
+									<button type="button" class="btn btn-danger btn-lg"><span class="glypicon glypicon-remove-circle"></span>Cancelar</button>	
 
 								</div>
 
