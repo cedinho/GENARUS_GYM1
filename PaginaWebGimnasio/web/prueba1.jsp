@@ -48,10 +48,10 @@
                              <div class="col-xs-12">
                                <h2 class=" form-signin-heading"><center><strong>Ingresa Aqui</strong></center></h2>
                               </div>
-                               <form class="login" action="">
+                               <form class="" action="#">
                                  <div class="form-group"><input type="Usuario" class="form-control" placeholder="Usuario" name="Usuario" required autofocus></div>
                                  <div class="form-group"><input type="password" class="form-control" placeholder="Contrase&ntilde;a" name="pass" required></div>
-                                 <button class="btn btn-lg btn-primary btn-block" type"submit"><strong>Iniciar seci&oacute;n</strong></button>
+                                 <button class="btn btn-lg btn-primary btn-block" type="submit"><strong>Iniciar seci&oacute;n</strong></button>
 
                                </form>
                             
@@ -66,28 +66,24 @@
                                      <br />
                                     <label for="ejemplo_email_1">Nombre</label>
 
-                                    <input type="nombre" class="form-control" id="ejemplo_nombre_1"
-                                           placeholder="Introduce tu nombre">
+                                    <input type="nombre" class="form-control" 
+                                           placeholder="Introduce tu nombre" name="nombre" required autofocus>
                                 </div>
                                 <div class="col-sm-10 form-group">
                                     <label for="ejemplo_password_1">Apellido</label>
-                                    <input type="Apellido" class="form-control" id="ejemplo_apellido_1" 
-                                           placeholder="Apellido">
+                                    <input type="Apellido" class="form-control" placeholder="Apellido" name="Apellido" required>
                                </div>
                                 <div class="col-sm-10 form-group">
                                     <label for="ejemplo_password_1">DNI</label>
-                                    <input type="DNI" class="form-control" id="ejemplo_DNI_1" 
-                                           placeholder="DNI">
+                                    <input type="DNI" class="form-control" placeholder="DNI" name="DNI" required>
                                 </div>
                                 <div class="col-sm-10 form-group">
                                     <label for="ejemplo_password_1">Contrase&ntilde;a</label>
-                                    <input type="password" class="form-control" id="ejemplo_password_1" 
-                                           placeholder="Contrase&ntilde;a">
+                                    <input type="password" class="form-control" placeholder="Contrase&ntilde;a" name="Contrase&ntilde;a" required>
                                 </div>
                                 <div class="col-sm-10 form-group">
                                     <label for="ejemplo_password_1">Escribe de nuevo la contrase&ntilde;a</label>
-                                    <input type="password" class="form-control" id="ejemplo_password_1" 
-                                           placeholder="Contrase&ntilde;a">
+                                    <input type="password" class="form-control" placeholder="Contrase&ntilde;a" name="Contrase&ntilde;a" required>
                                 </div>
                                 <div class="col-sm-offset-3 col-sm-9 form-group">
                   
