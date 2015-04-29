@@ -18,7 +18,7 @@
                 <div class="row">
                     <div class="col-xs-12">
                         <div >
-                            <img src="recursos/img/logo.jpg">
+                            <img src="recursos/img/logo3.png" class="img-responsive" class="img-thumbnail">
                         </div>
                         <div>
   
@@ -56,57 +56,19 @@
                                             </li>
                                              <li class="dropdown">
                                                 <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button"  aria-expandd="false">
-                                                    Trainers
+                                                    Personal
                                                     <span class="caret"></span>
                                                 </a>
                                                     <ul class="dropdown-menu" role="menu">
-                                                        <li><a href="#">Registro Trainers</a></li>
-                                                        <li><a href="#">Reporte Trainers</a></li>
+                                                        <li><a href="#">Registro Personal</a></li>
+                                                        <li><a href="#">Reporte Personal</a></li>
                                                         
                                                         <li class="divider"></li>
-                                                        <li><a href="#">Actualizar Trainers</a></li>
-                                                        <li><a href="#">Eliminar Trainers</a></li>
+                                                        <li><a href="#">Actualizar Personal</a></li>
+                                                        <li><a href="#">Eliminar Personal</a></li>
                                                     </ul>
-                                            </li>
-                                            <li class="dropdown">
-                                                <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button"  aria-expandd="false">
-                                                    Actividades
-                                                    <span class="caret"></span>
-                                                </a>
-                                                    <ul class="dropdown-menu" role="menu">
-                                                        <li><a href="#">Registro Actividades</a></li>
-                                                        <li><a href="#">Reporte Actividades</a></li>
-                                                        
-                                                        <li class="divider"></li>
-                                                        <li><a href="#">Actualizar Actividads</a></li>
-                                                        <li><a href="#">Eliminar Actividades</a></li>
-                                                    </ul>
-                                            </li>
-                                            <li class="dropdown">
-                                                <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button"  aria-expandd="false">
-                                                    <span class="glyphicon glyphicon-time" aria-hidden="true"></span>
-                                                    Horarios 
-                                                    <span class="caret"></span>
-                                                </a>
-                                                    <ul class="dropdown-menu" role="menu">
-                                                        <li><a href="#">Registro Horarios</a></li>
-                                                        <li><a href="#">Reporte Horarios</a></li>
-                                                        
-                                                        <li class="divider"></li>
-                                                        <li><a href="#">Eliminar horarios</a></li>
-                                                    </ul>
-                                            </li>
-                                             <li class="dropdown">
-                                                <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button"  aria-expandd="false">
-                                                    Reservas
-                                                    <span class="caret"></span>
-                                                </a>
-                                                    <ul class="dropdown-menu" role="menu">
-                                                        <li><a href="#">Registro Reservas</a></li>
-                                                        <li><a href="#">Reporte Resevas</a></li>
-                                                    </ul>
-                                            </li>
-                                             <li><a href="regCliente">
+                                            </li>                                          
+                                             <li><a href="prueba1.jsp">
                                                     <span class="glyphicon glyphicon-off" aria-hidden="true"></span>
                                                     Cerrar sesion</a></li>
 
