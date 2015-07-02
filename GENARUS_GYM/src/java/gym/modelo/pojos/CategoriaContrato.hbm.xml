@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+"http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+<!-- Generated 17/06/2015 09:55:06 AM by Hibernate Tools 4.3.1 -->
+<hibernate-mapping>
+    <class name="gym.modelo.entidad.CategoriaContrato" table="CATEGORIA_CONTRATO" schema="GENARUS1" optimistic-lock="version">
+        <id name="idCategoriaContrato" type="string">
+            <column name="ID_CATEGORIA_CONTRATO" length="6" />
+            <generator class="assigned" />
+        </id>
+        <property name="nombreCategoria" type="string">
+            <column name="NOMBRE_CATEGORIA" length="20" />
+        </property>
+        <property name="descuento" type="int">
+            <column name="DESCUENTO" precision="22" scale="0" />
+        </property>
+    </class>
+</hibernate-mapping>
